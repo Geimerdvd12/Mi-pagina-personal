@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Texto sobre imagen</title>
+    <link rel="icon" type="image/gif/png" href="UUU/Captura de pantalla 2024-07-17 234943.png">
+    <style>
+        .container {
+            position: relative;
+        }
+        .topleft {
+            position: absolute;
+            top: 8px;
+            left: 16px;
+            font-size: 18px;
+        }
+        .topright {
+            position: absolute;
+            top: 8px;
+            right: 16px;
+            font-size: 18px;
+        }
+        .bottomleft {
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+            font-size: 18px;
+        }
+        .bottomright {
+            position: absolute;
+            bottom: 8px;
+            right: 16px;
+            font-size: 18px;
+        }
+        .center {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            font-size: 18px;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            opacity: 0.3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Texto sobre Imagen</h2>
+
+    <p>Colocando texto en distintas posiciones sobre una imagen:</p>
+
+    <div class="container">
+
+        <img src="UUU/mapachihuahua.jpg" alt="mapachihuahua"width="1000"height="417">
+
+        <div class="topleft">Superior Izquierda</div>
+        <div class="topright">Superior Derecha</div>
+        <div class="bottomleft">Inferior Izquierda</div>
+        <div class="bottomright">Inferior Derecha</div>
+        <div class="center">Centrado</div>
+    </div>
+
+</body>
+
+</html>
